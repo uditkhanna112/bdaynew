@@ -1,0 +1,68 @@
+body{
+                background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("2.jpg");
+                background-position: center;
+                background-repeat:  no-repeat;
+                background-size:  cover;
+                width: 100%;
+            
+            }
+    #abc{
+        line-height: 1.5em;
+
+        margin-top: 30px;
+    }
+    #aa{
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .btn-lg{
+        background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 13pt;
+    transition: 1s;
+    cursor: pointer;
+    }
+    .btn-lg:hover {
+         color: blanchedalmond;
+        transform: scale(1.1);
+        transition: 1s;
+        
+    }
+            .hh, h1{
+                color:white;
+                font-family: 'Roboto Slab';
+           padding: 20px;
+           
+           text-align: center;
+            }
+            
+            .jumbotron{
+                background-color: transparent;
+            }
+            .typewriter h1 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid orange; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .15em; /* Adjust as needed */
+                animation: 
+                  typing 3.5s steps(40, end),
+                  blink-caret .75s step-end infinite;
+              }
+              
+              /* The typing effect */
+              @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+              
+              /* The typewriter cursor effect */
+              @keyframes blink-caret {
+                from, to { border-color: transparent }
+                50% { border-color: orange; }
+              }
